@@ -1,0 +1,24 @@
+:root{
+    --font-family: 'Montserrat', sans-serif;
+    --font-family-logo: 'Montserrat', sans-serif;
+    --font-input: 300;
+
+    --font-size-logo: 28px;
+    --font-size-card-title: 28px;
+    --font-size-input-label: 20px;
+    --font-size-button: 22px;
+    --font-size-form-fieldset: 22px;
+    --font-size-table-header: 22px;
+    --font-size-modal-title: 28px;
+    --font-size-modal-button: 28px;
+
+    --primary-color: #0071ea;
+    --secundary-color: #03090fd7;
+    --contrast-dark-color: #ffffff;
+    --contrast-ligth-color: #6e6d6d;
+    --info-color: #df2525;
+    --sucess-color: #047900;
+    --transparency-color: #4d4d4d33;
+
+    --shadow: 0 5px 10px #55a6ff38;
+}
