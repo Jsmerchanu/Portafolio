@@ -49,7 +49,7 @@
     border-radius: 5px;
     width: 400px;
     height: 30px;
-    box-shadow: inset 0 0 15px 10px rgb(18, 25, 36);
+    box-shadow: inset 0 0 3px 10px rgb(18, 25, 36);
     background-color: #0e1c2bb7;
 }
 
@@ -57,7 +57,7 @@
     border-radius: 5px;
     width: 400px;
     height: 100px;
-    box-shadow: inset 0 0 15px 10px rgb(18, 25, 36);
+    box-shadow: inset 0 0 3px 10px rgb(18, 25, 36);
     background-color: #0e1c2bb7;
 }
 .button{
