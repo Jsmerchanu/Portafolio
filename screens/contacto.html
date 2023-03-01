@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="icon" href="../img/logo_transparent.png" type="image/x-icon"/>
+    <link rel="icon" href="../img/logo_transparent.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Playfair+Display&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Playfair+Display&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../assets/base/reset.css">
     <link rel="stylesheet" href="../assets/base/variables.css">
     <link rel="stylesheet" href="../assets/base/base.css">
     <link rel="stylesheet" href="../assets/componentes/contacto.css">
 
 </head>
+
 <body>
     <header class="container header__container">
-        <img src="../img/logo_transparent.png" alt="logo js" class="header__logo"/>
+        <a href="/index.html" class="header__a">
+            <img src="../img/logo_transparent.png" alt="logo js" class="header__logo" />
+        </a>
         <nav>
             <ul class="header__list-nav">
                 <li class="header__link"><a href="../index.html">Inicio</a></li>
@@ -30,38 +36,22 @@
         <section class="informacion">
             <h1 class="informacion__title">Informacion de contacto</h1>
             <div class="container__form">
-                <form action="mailto:jsmerchan1013@gmail.com" class="informacion__form flex flex--column" method="post" enctype="text/plain">
+                <form action="mailto:jsmerchan1013@gmail.com" class="informacion__form flex flex--column" method="post"
+                    enctype="text/plain">
                     <div class="element__form">
                         <label class="informacion__label" for="nombre">Nombre</label>
-                        <input
-                        name="nombre"
-                        id="nombre"
-                        class="informacion__input"
-                        type="text"
-                        placeholder="Nombre Apellido"
-                        required
-                        />
-                    </div>                    
+                        <input name="nombre" id="nombre" class="informacion__input" type="text"
+                            placeholder="Nombre Apellido" required />
+                    </div>
                     <div class="element__form">
-                        <label class="informacion__label" for="email" >Email</label>
-                        <input
-                        name="email"
-                        id="email"
-                        class="informacion__input"
-                        type="email"
-                        placeholder="ejemplo@gmail.com"
-                        required
-                        />
+                        <label class="informacion__label" for="email">Email</label>
+                        <input name="email" id="email" class="informacion__input" type="email"
+                            placeholder="ejemplo@gmail.com" required />
                     </div>
                     <div class="element__form">
                         <label class="informacion__label" for="mensaje">Mensaje</label>
-                        <textarea
-                        class="informacion__textarea"
-                        name="mensaje"
-                        id="mensaje"
-                        placeholder="Mensaje a enviar"
-                        required
-                        ></textarea>
+                        <textarea class="informacion__textarea" name="mensaje" id="mensaje"
+                            placeholder="Mensaje a enviar" required ></textarea>
                     </div>
                     <input class="button" type="submit" name="submit" value="Enviar">
                 </form>
@@ -79,6 +69,7 @@
             <img src="../img/github.svg" alt="Git hub">
             <li class="footer__list-element">Git hub</li>
         </ul>
-    </footer>    
+    </footer>
 </body>
+
 </html>
