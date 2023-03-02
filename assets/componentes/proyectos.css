@@ -45,7 +45,7 @@
     height: 800px;
     width: 1000px;
     margin: 50px;
-    background-color: #0e1c2bb7;
+    background: #0e1c2bb7;
 }
 .project__title {
     display: flex;
