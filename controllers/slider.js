@@ -1,4 +1,4 @@
-var count = 1;
+var count = 2;
 setInterval(function(){
     document.getElementById('radio' + count).checked = true;
     count++;
