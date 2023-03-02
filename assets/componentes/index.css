@@ -24,6 +24,15 @@
 .header__link {
     padding-left: 100px;
 }
+.header__link-a{
+    font-size: 18px;
+    
+}
+.header__link:hover{
+    
+   transform: scale(1.15);
+   text-decoration-line: underline;
+}
 
 
 /*----------------------------------*/
@@ -213,6 +222,10 @@
     background-color: #0e1c2bb7;
     box-shadow: 5px 5px 15px gray;
     border-radius: 30px;
+}
+.section__abilities-div:hover{
+    transform: scale(1.10);
+    
 }
 .section__abilities-figure{
     width: 100px;

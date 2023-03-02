@@ -25,6 +25,11 @@
 .header__link {
     padding-left: 100px;
 }
+.header__link:hover{
+    
+    transform: scale(1.15);
+    text-decoration-line: underline;
+ }
 
 /*----------------------------------*/
 
@@ -82,6 +87,9 @@
     width: 100px;
     height: 30px;
     border-radius: 5px;
+}
+.button:hover{
+    transform: scale(1.10);
 }
 
 /*----------------------------------*/
