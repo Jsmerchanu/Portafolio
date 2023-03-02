@@ -89,7 +89,11 @@
     border-radius: 5px;
 }
 .button:hover{
-    transform: scale(1.10);
+    box-shadow: 0 0 15px rgba(128,128,128,0.8);
+}
+.button__click:active{
+    width: 95px;
+    height: 25px;
 }
 
 /*----------------------------------*/
@@ -97,7 +101,7 @@
 .footer__container {
     display: flex;
     flex-direction: column;
-    box-shadow: 5px 5px 15px gray;
+    box-shadow: 0px 0px 15px gray;
 }
 .footer__list {
     margin-bottom: 10%;

@@ -36,8 +36,7 @@
         <section class="informacion">
             <h1 class="informacion__title">Informacion de contacto</h1>
             <div class="container__form">
-                <form action="mailto:jsmerchan1013@gmail.com" class="informacion__form flex flex--column" method="post"
-                    enctype="text/plain">
+                <form action="https://formsubmit.co/8dd081bda41484a7fc76eecfc33835a1" method="POST" class="informacion__form flex flex--column">
                     <div class="element__form">
                         <label class="informacion__label" for="nombre">Nombre</label>
                         <input name="nombre" id="nombre" class="informacion__input" type="text"
@@ -53,7 +52,11 @@
                         <textarea class="informacion__textarea" name="mensaje" id="mensaje"
                             placeholder="Mensaje a enviar" required ></textarea>
                     </div>
-                    <input class="button" type="submit" name="submit" value="Enviar">
+                    <input class="button button__click" id="input__btn" type="submit" value="Enviar">
+                    <input type="hidden" name="_next" value="https://jsmerchanu.github.io/Portafolio/index.html">
+                    <input type="hidden" name="_captcha" value="false">
+                    
+
                 </form>
             </div>
         </section>
