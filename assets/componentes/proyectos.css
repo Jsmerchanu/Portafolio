@@ -163,9 +163,9 @@
     .projects h1{
         font-size: 17px;
     }
-    .project__element{
-        /*iframe*/
-    }
+    /*.project__element{
+        iframe
+    }*/
 
 
     .project__title{
@@ -180,5 +180,9 @@
         width: 100vw; 
         margin-bottom: 10%;
         border-radius: 0;
+    }
+    .footer__list-element{
+        font-size: 13px;
+        
     }
 }

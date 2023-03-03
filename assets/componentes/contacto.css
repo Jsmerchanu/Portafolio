@@ -17,6 +17,9 @@
 .header__logo {
     width: 100px
 }
+.menu{
+    visibility: hidden;
+}
 .header__list-nav {
     display: flex;
     justify-content: space-between;
@@ -24,6 +27,12 @@
 }
 .header__link {
     padding-left: 100px;
+}
+.link{
+    visibility: hidden;
+}
+.header__link-a{
+    font-size: 18px;
 }
 .header__link:hover{
     
@@ -45,7 +54,7 @@
     align-items: center;
     justify-content: center;
     width: 500px;
-    height: 500px;
+    height: 650px;
     box-shadow: 0 0 15px 10px gray;
     margin-bottom: 100px;
     border-radius: 50px;
@@ -111,4 +120,85 @@
 }
 .footer__list-element {
     padding-bottom: 20px;
+}
+
+/*--------------------------------------------*/
+@media (max-width: 576px) {
+    
+    .header__a, .header__logo{
+        width: 5rem;  
+        display: flex;
+        align-items: center;
+
+    }
+    .menu{
+        visibility: inherit;
+    }
+    .menu:hover{
+    
+        transform: scale(1.15);
+        text-decoration-line: underline;
+     }
+    .menu__resp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30%;
+        font-size: 18px;
+    }
+    .header__nav{
+        width: 50%;
+        height: 100%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        background: #0e1c2bb7;
+    }
+    .header__nav-remove{
+        visibility: hidden;
+    }
+    .header__nav-m{
+        visibility: visible;
+    }
+    
+    nav{
+        width: 20%;
+        margin-right:40%;
+        
+    }
+    .link{
+        visibility: visible;
+        
+    }
+    .header__list-nav{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .header__link{
+        padding: 50%;
+        line-height: 2;
+    }
+    .informacion__title{
+        font-size: 16px;
+    }
+    .container__form{
+        width: 100vw;
+        height: 150vw;
+        border-radius: 0;
+    }
+    .element__form{
+        margin: 3%;
+        
+    }
+    .informacion__input{
+        width: 300px;
+    }
+    .informacion__textarea{
+        width: 300px;
+    }
+    .footer__list-element{
+        font-size: 13px;
+        
+    }
 }
