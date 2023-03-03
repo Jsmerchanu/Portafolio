@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Document</title>
     <link rel="icon" href="../img/logo_transparent.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,11 +23,16 @@
         <a href="../index.html" class="header__a">
             <img src="../img/logo_transparent.png" alt="logo js" class="header__logo" />
         </a>
-        <nav>
+        <div class="menu__resp" id="mostrar">
+            <il class="menu__link menu"><a class="menu__link-a" href="#">Menu</a></il>
+        </div>
+        <nav id="menu__mostrar" class="header__nav header__nav-remove">
             <ul class="header__list-nav">
-                <li class="header__link"><a href="../index.html">Inicio</a></li>
-                <li class="header__link"><a href="../screens/proyectos.html">Proyectos</a></li>
-                <li class="header__link"><a href="../screens/contacto.html">Contacto</a></li>
+                <li class="header__link li__resp"><a class="header__link-a" href="../index.html">Inicio</a></li>
+                <li class="header__link li__resp"><a class="header__link-a" href="../screens/proyectos.html">Proyectos</a>
+                </li>
+                <li class="header__link li__resp"><a class="header__link-a" href="../screens/contacto.html">Contacto</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -109,6 +114,7 @@
             </ul>
         </footer>
     </main>
+    <script type="module" src="../controllers/menuresp.js"></script>
 </body>
 
 </html>
