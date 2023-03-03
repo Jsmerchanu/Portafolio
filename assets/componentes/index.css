@@ -16,6 +16,10 @@
 .header__logo {
     width: 100px
 }
+.menu{
+    visibility: hidden;
+}
+
 .header__list-nav {
     display: flex;
     justify-content: space-between;
@@ -23,6 +27,9 @@
 }
 .header__link {
     padding-left: 100px;
+}
+.link{
+    visibility: hidden;
 }
 .header__link-a{
     font-size: 18px;
@@ -262,3 +269,89 @@
 .footer__list-element {
     padding-bottom: 20px;
 }
+
+/*----------------------------------*/
+
+
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+    
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 576px) {
+    .header__container, .container{
+        width: 100%;
+    }
+    .header__a, .header__logo{
+        width: 5rem;  
+        display: flex;
+        align-items: center;
+
+    }
+    .menu{
+        visibility: inherit;
+    }
+    .menu:hover{
+    
+        transform: scale(1.15);
+        text-decoration-line: underline;
+     }
+    .menu__resp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30%;
+        font-size: 18px;
+    }
+    .header__nav{
+        width: 50%;
+        height: 100%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        background: #0e1c2bb7;
+    }
+    .header__nav-remove{
+        visibility: hidden;
+    }
+    .header__nav-m{
+        visibility: visible;
+    }
+    
+    nav{
+        width: 20%;
+        margin-right:40%;
+        
+    }
+    .link{
+        visibility: visible;
+        
+    }
+    .header__list-nav{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .header__link{
+        padding: 50%;
+        line-height: 2;
+    }
+    
+    .index__container{
+        padding: 100vw;
+    }
+
+/*----------------------------*/
+
+    .slider{
+        width: 100px;
+    }
+    .manual__nav, .auto__nav{
+        display: none;
+    }
+    }
+    
