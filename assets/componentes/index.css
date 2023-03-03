@@ -348,10 +348,14 @@
         border-radius: 0;
 
     }
+    .sliders{
+        height: 110vw;
+    }
     
     .section__slider{
         display: flex;
         align-items: center;
+        
     }
     
     .manual__nav, .auto__nav{
